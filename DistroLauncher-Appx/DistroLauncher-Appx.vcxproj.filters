@@ -8,6 +8,9 @@
       <UniqueIdentifier>3cd39ea5-301d-4878-9d47-b5dbb30f6c95</UniqueIdentifier>
       <Extensions>bmp;fbx;gif;jpg;jpeg;tga;tiff;tif;png</Extensions>
     </Filter>
+    <Filter Include="OcrResources">
+      <UniqueIdentifier>{dd91dab3-8aba-44e5-b03a-0e8abb02159d}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <Image Include="Assets\Square150x150Logo.scale-200.png">
@@ -151,12 +154,141 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="..\ARM64\install.tar.gz" />
-    <None Include="..\x64\install.tar.gz" />
     <None Include="DistroLauncher-Appx_TemporaryKey.pfx" />
     <None Include="Package.StoreAssociation.xml" />
     <None Include="DistroLauncher-Appx_StoreKey.pfx" />
+    <None Include="packages.config" />
+    <None Include="..\..\..\..\..\..\Windows\SysWOW64\WinMetadata\Windows.UI.Xaml.winmd" />
+    <None Include="..\..\..\..\..\..\Windows\SysWOW64\WinMetadata\Windows.Web.winmd" />
+    <None Include="..\..\..\..\..\..\Windows\SysWOW64\WinMetadata\Windows.ApplicationModel.winmd" />
+    <None Include="..\..\..\..\..\..\Windows\SysWOW64\WinMetadata\Windows.Data.winmd" />
+    <None Include="..\..\..\..\..\..\Windows\SysWOW64\WinMetadata\Windows.Devices.winmd" />
+    <None Include="..\..\..\..\..\..\Windows\SysWOW64\WinMetadata\Windows.Foundation.winmd" />
+    <None Include="..\..\..\..\..\..\Windows\SysWOW64\WinMetadata\Windows.Gaming.winmd" />
+    <None Include="..\..\..\..\..\..\Windows\SysWOW64\WinMetadata\Windows.Globalization.winmd" />
+    <None Include="..\..\..\..\..\..\Windows\SysWOW64\WinMetadata\Windows.Graphics.winmd" />
+    <None Include="..\..\..\..\..\..\Windows\SysWOW64\WinMetadata\Windows.Management.winmd" />
+    <None Include="..\..\..\..\..\..\Windows\SysWOW64\WinMetadata\Windows.Media.winmd" />
+    <None Include="..\..\..\..\..\..\Windows\SysWOW64\WinMetadata\Windows.Networking.winmd" />
+    <None Include="..\..\..\..\..\..\Windows\SysWOW64\WinMetadata\Windows.Perception.winmd" />
+    <None Include="..\..\..\..\..\..\Windows\SysWOW64\WinMetadata\Windows.Security.winmd" />
+    <None Include="..\..\..\..\..\..\Windows\SysWOW64\WinMetadata\Windows.Services.winmd" />
+    <None Include="..\..\..\..\..\..\Windows\SysWOW64\WinMetadata\Windows.Storage.winmd" />
+    <None Include="..\..\..\..\..\..\Windows\SysWOW64\WinMetadata\Windows.System.winmd" />
+    <None Include="..\..\..\..\..\..\Windows\SysWOW64\WinMetadata\Windows.UI.winmd" />
+    <None Include="..\..\..\..\..\..\Windows\SysWOW64\WinMetadata\Windows.AI.winmd" />
+    <None Include="E:\Toolkit\Backup\DESKTOP-U4KTU9I\c\Linux\GNU MCU Eclipse\Build Tools\2.9-20170629-1013\bin\busybox.exe" />
+    <None Include="E:\Toolkit\Backup\DESKTOP-U4KTU9I\c\Linux\GNU MCU Eclipse\Build Tools\2.9-20170629-1013\bin\echo.exe" />
+    <None Include="E:\Toolkit\Backup\DESKTOP-U4KTU9I\c\Linux\GNU MCU Eclipse\Build Tools\2.9-20170629-1013\bin\make.exe" />
+    <None Include="E:\Toolkit\Backup\DESKTOP-U4KTU9I\c\Linux\GNU MCU Eclipse\Build Tools\2.9-20170629-1013\bin\mkdir.exe" />
+    <None Include="E:\Toolkit\Backup\DESKTOP-U4KTU9I\c\Linux\GNU MCU Eclipse\Build Tools\2.9-20170629-1013\bin\rm.exe" />
+    <None Include="E:\Toolkit\Backup\DESKTOP-U4KTU9I\c\Linux\GNU MCU Eclipse\Build Tools\2.9-20170629-1013\bin\sh.exe" />
+    <None Include="E:\Toolkit\Backup\DESKTOP-U4KTU9I\c\Linux\gcc_arm\bin\arm-none-eabi-addr2line.exe" />
+    <None Include="E:\Toolkit\Backup\DESKTOP-U4KTU9I\c\Linux\gcc_arm\bin\arm-none-eabi-ar.exe" />
+    <None Include="E:\Toolkit\Backup\DESKTOP-U4KTU9I\c\Linux\gcc_arm\bin\arm-none-eabi-as.exe" />
+    <None Include="E:\Toolkit\Backup\DESKTOP-U4KTU9I\c\Linux\gcc_arm\bin\arm-none-eabi-c++.exe" />
+    <None Include="E:\Toolkit\Backup\DESKTOP-U4KTU9I\c\Linux\gcc_arm\bin\arm-none-eabi-c++filt.exe" />
+    <None Include="E:\Toolkit\Backup\DESKTOP-U4KTU9I\c\Linux\gcc_arm\bin\arm-none-eabi-cpp.exe" />
+    <None Include="E:\Toolkit\Backup\DESKTOP-U4KTU9I\c\Linux\gcc_arm\bin\arm-none-eabi-elfedit.exe" />
+    <None Include="E:\Toolkit\Backup\DESKTOP-U4KTU9I\c\Linux\gcc_arm\bin\arm-none-eabi-g++.exe" />
+    <None Include="E:\Toolkit\Backup\DESKTOP-U4KTU9I\c\Linux\gcc_arm\bin\arm-none-eabi-gcc.exe" />
+    <None Include="E:\Toolkit\Backup\DESKTOP-U4KTU9I\c\Linux\gcc_arm\bin\arm-none-eabi-gcc-8.2.1.exe" />
+    <None Include="E:\Toolkit\Backup\DESKTOP-U4KTU9I\c\Linux\gcc_arm\bin\arm-none-eabi-gcc-ar.exe" />
+    <None Include="E:\Toolkit\Backup\DESKTOP-U4KTU9I\c\Linux\gcc_arm\bin\arm-none-eabi-gcc-nm.exe" />
+    <None Include="E:\Toolkit\Backup\DESKTOP-U4KTU9I\c\Linux\gcc_arm\bin\arm-none-eabi-gcc-ranlib.exe" />
+    <None Include="E:\Toolkit\Backup\DESKTOP-U4KTU9I\c\Linux\gcc_arm\bin\arm-none-eabi-gcov.exe" />
+    <None Include="E:\Toolkit\Backup\DESKTOP-U4KTU9I\c\Linux\gcc_arm\bin\arm-none-eabi-gcov-dump.exe" />
+    <None Include="E:\Toolkit\Backup\DESKTOP-U4KTU9I\c\Linux\gcc_arm\bin\arm-none-eabi-gcov-tool.exe" />
+    <None Include="E:\Toolkit\Backup\DESKTOP-U4KTU9I\c\Linux\gcc_arm\bin\arm-none-eabi-gdb.exe" />
+    <None Include="E:\Toolkit\Backup\DESKTOP-U4KTU9I\c\Linux\gcc_arm\bin\arm-none-eabi-gdb-add-index" />
+    <None Include="E:\Toolkit\Backup\DESKTOP-U4KTU9I\c\Linux\gcc_arm\bin\arm-none-eabi-gdb-add-index-py" />
+    <None Include="E:\Toolkit\Backup\DESKTOP-U4KTU9I\c\Linux\gcc_arm\bin\arm-none-eabi-gdb-py.exe" />
+    <None Include="E:\Toolkit\Backup\DESKTOP-U4KTU9I\c\Linux\gcc_arm\bin\arm-none-eabi-gprof.exe" />
+    <None Include="E:\Toolkit\Backup\DESKTOP-U4KTU9I\c\Linux\gcc_arm\bin\arm-none-eabi-ld.bfd.exe" />
+    <None Include="E:\Toolkit\Backup\DESKTOP-U4KTU9I\c\Linux\gcc_arm\bin\arm-none-eabi-ld.exe" />
+    <None Include="E:\Toolkit\Backup\DESKTOP-U4KTU9I\c\Linux\gcc_arm\bin\arm-none-eabi-nm.exe" />
+    <None Include="E:\Toolkit\Backup\DESKTOP-U4KTU9I\c\Linux\gcc_arm\bin\arm-none-eabi-objcopy.exe" />
+    <None Include="E:\Toolkit\Backup\DESKTOP-U4KTU9I\c\Linux\gcc_arm\bin\arm-none-eabi-objdump.exe" />
+    <None Include="E:\Toolkit\Backup\DESKTOP-U4KTU9I\c\Linux\gcc_arm\bin\arm-none-eabi-ranlib.exe" />
+    <None Include="E:\Toolkit\Backup\DESKTOP-U4KTU9I\c\Linux\gcc_arm\bin\arm-none-eabi-readelf.exe" />
+    <None Include="E:\Toolkit\Backup\DESKTOP-U4KTU9I\c\Linux\gcc_arm\bin\arm-none-eabi-size.exe" />
+    <None Include="E:\Toolkit\Backup\DESKTOP-U4KTU9I\c\Linux\gcc_arm\bin\arm-none-eabi-strings.exe" />
+    <None Include="E:\Toolkit\Backup\DESKTOP-U4KTU9I\c\Linux\gcc_arm\bin\arm-none-eabi-strip.exe" />
+    <None Include="E:\Toolkit\Backup\DESKTOP-U4KTU9I\c\Linux\gcc_arm\bin\gccvar.bat" />
+    <None Include="OcrResources\MsOcrRes.orp">
+      <Filter>OcrResources</Filter>
+    </None>
+    <None Include="ApplicationInsights.config" />
   </ItemGroup>
   <ItemGroup>
     <CustomBuild Include="$(targetname)" />
+    <CustomBuild Include="$(targetname)" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="E:\vcpkg\archives.cpp" />
+    <ClCompile Include="E:\vcpkg\binaryparagraph.cpp" />
+    <ClCompile Include="E:\vcpkg\build.cpp" />
+    <ClCompile Include="E:\vcpkg\commands.autocomplete.cpp" />
+    <ClCompile Include="E:\vcpkg\commands.buildexternal.cpp" />
+    <ClCompile Include="E:\vcpkg\commands.cache.cpp" />
+    <ClCompile Include="E:\vcpkg\commands.ci.cpp" />
+    <ClCompile Include="E:\vcpkg\commands.contact.cpp" />
+    <ClCompile Include="E:\vcpkg\commands.cpp" />
+    <ClCompile Include="E:\vcpkg\commands.create.cpp" />
+    <ClCompile Include="E:\vcpkg\commands.dependinfo.cpp" />
+    <ClCompile Include="E:\vcpkg\commands.edit.cpp" />
+    <ClCompile Include="E:\vcpkg\commands.env.cpp" />
+    <ClCompile Include="E:\vcpkg\commands.exportifw.cpp" />
+    <ClCompile Include="E:\vcpkg\commands.import.cpp" />
+    <ClCompile Include="E:\vcpkg\commands.integrate.cpp" />
+    <ClCompile Include="E:\vcpkg\commands.list.cpp" />
+    <ClCompile Include="E:\vcpkg\commands.owns.cpp" />
+    <ClCompile Include="E:\vcpkg\commands.porthistory.cpp" />
+    <ClCompile Include="E:\vcpkg\commands.portsdiff.cpp" />
+    <ClCompile Include="E:\vcpkg\commands.search.cpp" />
+    <ClCompile Include="E:\vcpkg\commands.upgrade.cpp" />
+    <ClCompile Include="E:\vcpkg\commands.version.cpp" />
+    <ClCompile Include="E:\vcpkg\commands.xvsinstances.cpp" />
+    <ClCompile Include="E:\vcpkg\dependencies.cpp" />
+    <ClCompile Include="E:\vcpkg\export.chocolatey.cpp" />
+    <ClCompile Include="E:\vcpkg\export.cpp" />
+    <ClCompile Include="E:\vcpkg\globalstate.cpp" />
+    <ClCompile Include="E:\vcpkg\help.cpp" />
+    <ClCompile Include="E:\vcpkg\input.cpp" />
+    <ClCompile Include="E:\vcpkg\install.cpp" />
+    <ClCompile Include="E:\vcpkg\logicexpression.cpp" />
+    <ClCompile Include="E:\vcpkg\metrics.cpp" />
+    <ClCompile Include="E:\vcpkg\packagespec.cpp" />
+    <ClCompile Include="E:\vcpkg\packagespecparseresult.cpp" />
+    <ClCompile Include="E:\vcpkg\paragraphparseresult.cpp" />
+    <ClCompile Include="E:\vcpkg\paragraphs.cpp" />
+    <ClCompile Include="E:\vcpkg\parse.cpp" />
+    <ClCompile Include="E:\vcpkg\postbuildlint.buildtype.cpp" />
+    <ClCompile Include="E:\vcpkg\postbuildlint.cpp" />
+    <ClCompile Include="E:\vcpkg\remove.cpp" />
+    <ClCompile Include="E:\vcpkg\sourceparagraph.cpp" />
+    <ClCompile Include="E:\vcpkg\statusparagraph.cpp" />
+    <ClCompile Include="E:\vcpkg\statusparagraphs.cpp" />
+    <ClCompile Include="E:\vcpkg\tools.cpp" />
+    <ClCompile Include="E:\vcpkg\triplet.cpp" />
+    <ClCompile Include="E:\vcpkg\update.cpp" />
+    <ClCompile Include="E:\vcpkg\userconfig.cpp" />
+    <ClCompile Include="E:\vcpkg\vcpkgcmdarguments.cpp" />
+    <ClCompile Include="E:\vcpkg\vcpkglib.cpp" />
+    <ClCompile Include="E:\vcpkg\vcpkgpaths.cpp" />
+    <ClCompile Include="E:\vcpkg\versiont.cpp" />
+    <ClCompile Include="E:\vcpkg\visualstudio.cpp" />
+    <ClCompile Include="E:\vcpkg\base\checks.cpp" />
+    <ClCompile Include="E:\vcpkg\base\chrono.cpp" />
+    <ClCompile Include="E:\vcpkg\base\cofffilereader.cpp" />
+    <ClCompile Include="E:\vcpkg\base\downloads.cpp" />
+    <ClCompile Include="E:\vcpkg\base\enums.cpp" />
+    <ClCompile Include="E:\vcpkg\base\files.cpp" />
+    <ClCompile Include="E:\vcpkg\base\hash.cpp" />
+    <ClCompile Include="E:\vcpkg\base\machinetype.cpp" />
+    <ClCompile Include="E:\vcpkg\base\strings.cpp" />
+    <ClCompile Include="E:\vcpkg\base\stringview.cpp" />
+    <ClCompile Include="E:\vcpkg\base\system.cpp" />
+    <ClCompile Include="E:\vcpkg\base\system.print.cpp" />
   </ItemGroup>
 </Project>
